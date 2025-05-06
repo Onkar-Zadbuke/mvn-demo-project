@@ -1,4 +1,4 @@
-FROM openjdk:17-alpine
+FROM openjdk:17-jdk-slim
 LABEL maintainer="Onkar"
 WORKDIR /app
 COPY target/*.jar app.jar
